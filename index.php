@@ -1,6 +1,6 @@
 <?php
     
-     // Making a raw API call to the ChatGPT API using cURy
+     // Making a raw API call to the ChatGPT API using cURL
      if(isset($_POST['prompt'])){
          
             $prompt = $_POST['prompt'];
